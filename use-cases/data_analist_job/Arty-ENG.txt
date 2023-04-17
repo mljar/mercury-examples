@@ -1,0 +1,40 @@
+Tytle: Mercury Tutorial: Analyze your potential
+
+Data analyst is becoming an increasingly desirable profession, on the side of the employee
+as well as the company. No wonder companies need specialists to help them make important 
+business decisions. However, the market situation is becoming difficult, especially for people whose goal is to 
+getting their first job in this field. In this tutorial, we will show you two useful things for you, namely:
+How to create a website using Mercury. And at the same time we will analyze the job market 
+and show you what skills will help you get your first job more easily! 
+
+It's time to open Jupiter Notebook! After installing Mercury(download link), we are really only a few lines of code away from creating a website.
+
+In the first cell we will import mercury as mr
+In the second cell we will configure the Mercury App properties: title and description: 
+Try to describe your project originally, it will help later to locate your work.
+
+And already mercury after starting the second cell will pop you a notification , "Mercury Application This output won't appear in the web app."
+Your notebook can officially be a page now.
+
+Mercury will read all your code and create a web app. Now open your the command line and navigate to the location of your notebook. Once you've set everything up just type mercury run in the terminal.
+
+**The application should open the page by itself, but if it doesn't, you can copy the page from your ternimal.
+
+If everything has been done correctly you should now see this screen and your file.
+When you click on it, your own page will open.
+
+Let's move on to analyzing the labor market situation.
+
+Who is looking for the largest number of analysts?
+The freelance company Upwork with more than 2,000 prcy ads is dramatically breaking through.
+
+Where can you find the most ads?
+Linkedin is positioned first, and right after that we see Upwork again.
+
+What types of jobs are there?
+Of course, most companies need full-time analysts.
+And when it comes to the possibility of working remotely there are more than 7,000 listings with this option.
+
+What skills are most in demand? 
+According to the chart, the most sought-after skills are SQL, Excel and Python.
+But, the best-paid skills are Snowflake, Python, R and in fourth place is SQL.
