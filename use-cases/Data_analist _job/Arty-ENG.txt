@@ -1,0 +1,79 @@
+Tytle: Mercury Tutorial: Analyze your potential
+
+1)
+Data analyst is becoming an increasingly desirable profession, on the side of the employee
+as well as the company. No wonder companies need specialists to help them make important 
+business decisions. However, the market situation is becoming difficult, especially for people whose goal is to 
+getting their first job in this field. In this tutorial, we will show you two useful things for you, namely:
+How to create a website using Mercury. And at the same time we will analyze the job market 
+and show you what skills will help you get your first job more easily! 
+
+2)
+It's time to open Jupiter Notebook! After installing Mercury(download link), we are really only a few lines of code away from creating a website.
+In the first cell we will import mercury as mr
+
+2.1)
+In the second cell we will configure the Mercury App properties: title and description: 
+Try to describe your project originally, it will help later to locate your work.
+
+2.2)
+Mercury after starting the second cell will pop you a notification , "Mercury Application This output won't appear in the web app."
+Your notebook can officially be a page now.
+But before we launch, let's add some widgets.
+
+3)
+Let's start with MultipleSelect for the advanced levels.  
+
+lvl = mr.MultiSelect(value=['Junior'],choices=['Junior','Mid','Senior'], label="Choose youre level")
+
+3.1)
+The task of the next cell is to select from our DataFrame the levels of advancement we have chosen.
+
+df_lvl = df[df.category.isin(lvl.value)]
+
+3.2)
+And just create a graph using matplotlib.
+
+level = df_lvl['category'].value_counts().nlargest(10).sort_values(ascending=False)
+level.plot(kind='bar')
+
+3.3)
+Let's add another MultiSelect to our code.
+
+sk_set = mr.MultiSelect(choices=['sql', 'python','snowflake', 'r', 'powerbi','excel','c', 'c#', 'javascript', 'js',  'java', 'scala', 'sas'], 
+label="Choose your skills", value=['sql', 'python', 'r', 'snowflake'])
+
+sk_df = skills_df[skills_df.skill.isin(sk_set.value)]
+
+And all done!
+
+4)
+Mercury will read all your code and create a web app. Now open your the command line and navigate to the location of your notebook. Once you've set everything up just type mercury run in the terminal.
+
+**The application should open the page by itself, but if it doesn't, you can copy the page from your ternimal.
+
+4.1)
+If everything has been done correctly you should now see this screen and your file.
+When you click on it, your own page will open.
+
+
+5)
+Let's move on to analyzing the labor market situation.
+
+5.1)
+Who is looking for the largest number of analysts?
+The freelance company Upwork with more than 2,000 prcy ads is dramatically breaking through.
+
+5.2)
+Where can you find the most ads?
+Linkedin is positioned first, and right after that we see Upwork again.
+
+5.3)
+What types of jobs are there?
+Of course, most companies need full-time analysts.
+And when it comes to the possibility of working remotely there are more than 7,000 listings with this option.
+
+5.4)
+What skills are most in demand? 
+According to the chart, the most sought-after skills are SQL, Excel and Python.
+But, the best-paid skills are Snowflake, Python, R and in fourth place is SQL.
