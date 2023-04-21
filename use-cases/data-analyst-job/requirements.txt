@@ -2,5 +2,5 @@ matplotlib>=3.6.2
 mercury>=2.2.1
 numpy>=1.24.0
 pandas>=1.5.2
-
+wordcloud>=1.8.2.2
 
