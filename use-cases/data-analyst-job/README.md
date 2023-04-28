@@ -14,4 +14,4 @@ https://www.kaggle.com/datasets/lukebarousse/data-analyst-job-postings-google-se
 
 ### Web App
 Mercury app:
-https://cloud.runmercury.com/sites
+https://use-cases.runmercury.com
