@@ -4,7 +4,7 @@
 
 ### Full article [Python Dashboard for 15,963 Data Analyst job listings](https://mljar.com/blog/python-dashboard-data-analyst/)
 
-![](https://raw.githubusercontent.com/mljar/mercury-examples/main/use-cases/data-analyst-job/media/data-analyst-skills.gif)
+![](https://raw.githubusercontent.com/mljar/mercury-examples/main/use-cases/data-analyst-job/media/data-analysts-overview.png)
 
 ### Data source
 
