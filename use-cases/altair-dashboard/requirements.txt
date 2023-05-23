@@ -1,2 +1,2 @@
 altair
-vega-datasets
+vega_datasets
