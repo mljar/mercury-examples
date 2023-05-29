@@ -1,0 +1,4 @@
+mercury
+altair
+vega_datasets
+pandas
