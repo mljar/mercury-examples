@@ -1,0 +1,5 @@
+mercury
+mplfinance
+yfinance
+matplotlib
+pandas
