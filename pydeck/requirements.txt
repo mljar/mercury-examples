@@ -1,0 +1,3 @@
+pydeck
+pandas
+mercury
