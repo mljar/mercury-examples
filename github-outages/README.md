@@ -8,6 +8,8 @@ the Python code and run the analysis in Jupyter.
 
 ![GitHub incidents activity calendar in a Mercury web app](media/web-app.webp)
 
+▶️ [Watch the 14-second app demo](media/github-outages-demo.mp4)
+
 ## What can I do in the app?
 
 Use the sidebar to:
