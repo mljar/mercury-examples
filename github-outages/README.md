@@ -1,31 +1,46 @@
-# GitHub Outages Activity Calendar
+# GitHub Incidents Activity Calendar
 
-A Mercury web app for exploring GitHub incidents in a GitHub-style activity
-calendar. Filter incidents by date range, impact, or affected component, then
-display either the number of incidents or their total duration per day.
+Welcome! This example turns GitHub incident data into a calendar that looks
+like the GitHub contribution calendar.
 
-The example notebook is `github-incidents-calendar.ipynb`.
+Open [`github-incidents-calendar.ipynb`](github-incidents-calendar.ipynb) to see
+the Python code and run the analysis in Jupyter.
+
+![GitHub incidents activity calendar in a Mercury web app](media/web-app.webp)
+
+## What can I do in the app?
+
+Use the sidebar to:
+
+- choose a date range;
+- filter by impact;
+- filter by the affected GitHub component;
+- show the number of incidents or their total duration;
+- choose the calendar color.
+
+The cards at the top show a quick summary. Each calendar square is one day. A
+darker square means more incidents, or a longer total duration, depending on
+the selected metric.
+
+![Close view of the GitHub incidents activity calendar](media/activity-calendar.webp)
 
 ## Data source
 
-The notebook loads the parsed GitHub downtime-windows dataset maintained in
-the [`mrshu/github-statuses`](https://github.com/mrshu/github-statuses)
-repository:
+The notebook downloads the parsed GitHub downtime data from the
+[`mrshu/github-statuses`](https://github.com/mrshu/github-statuses) project:
 
 [Download `downtime_windows.csv`](https://raw.githubusercontent.com/mrshu/github-statuses/refs/heads/master/parsed/downtime_windows.csv)
 
-Incident duration is assigned to the calendar day on which the incident
-started. The source dataset is loaded directly from GitHub when the notebook
-runs, so an internet connection is required.
+An internet connection is needed when the notebook loads the data. An
+incident's full duration is assigned to the day when that incident started.
 
-## Run the app
+## Run the web app
 
-From the repository root:
+From the main repository folder, run:
 
 ```bash
 mercury --working-dir github-outages
 ```
 
-Then open the local Mercury address shown in the terminal. See the
-[Activity Calendar documentation](https://runmercury.com/docs/output/activity-calendar/)
-for details about the visualization widget.
+Open the local address printed in the terminal. You can also learn more in the
+[Mercury Activity Calendar documentation](https://runmercury.com/docs/output/activity-calendar/).
