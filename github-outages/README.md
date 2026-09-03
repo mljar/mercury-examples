@@ -6,9 +6,11 @@ like the GitHub contribution calendar.
 Open [`github-incidents-calendar.ipynb`](github-incidents-calendar.ipynb) to see
 the Python code and run the analysis in Jupyter.
 
-![GitHub incidents activity calendar in a Mercury web app](media/web-app.webp)
+## Watch the app
 
-▶️ [Watch the 14-second app demo](media/github-outages-demo.mp4)
+Click the preview to play the 14-second demo:
+
+[![Play the GitHub incidents activity calendar demo](media/web-app.webp)](media/github-outages-demo.mp4)
 
 ## What can I do in the app?
 
