@@ -1,3 +1,2 @@
 mercury>=3.2.7
 pandas>=2.0
-pydeck>=0.9.3
