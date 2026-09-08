@@ -75,6 +75,12 @@ The apps use simple keyword matching. The results are useful for exploring the
 data, but they are not exact counts of jobs. One post may contain several jobs,
 and a word may be used in a different meaning.
 
+## Related article
+
+Read [How Hard Is It to Find a Remote Python Data Job? I Checked 88,975 Hacker
+News Job Posts](https://mljar.com/blog/remote-python-data-job-hacker-news/) for
+the full analysis behind these apps.
+
 ## Run both web apps
 
 From the main repository folder, run:

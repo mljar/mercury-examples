@@ -38,6 +38,13 @@ The notebook downloads the parsed GitHub downtime data from the
 An internet connection is needed when the notebook loads the data. An
 incident's full duration is assigned to the day when that incident started.
 
+## Related articles
+
+- [I Analyzed 4.5 Years of GitHub Incidents. Here Is What
+  Changed.](https://mljar.com/blog/github-incidents-analysis/)
+- [GitHub Outages, Day by Day: A GitHub-Style Activity
+  Calendar](https://mljar.com/blog/github-outages-activity-calendar/)
+
 ## Run the web app
 
 From the main repository folder, run:
