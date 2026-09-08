@@ -20,6 +20,8 @@ You can open a folder to read more, view the notebook, and find the data source.
     compares programming-language mentions across selected years.
 - [Pivot table](pivot-table/) is an interactive table example.
 - [PyDeck](pydeck/) is an interactive map example.
+- [Open Model Arena](model-arena/) sends one prompt to four selectable models
+  and streams their answers side by side.
 
 ## App gallery
 
