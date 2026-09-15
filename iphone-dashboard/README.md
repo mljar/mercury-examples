@@ -15,11 +15,13 @@ python3 -m venv ../venv
 Install dependencies and start Mercury:
 
 ```bash
-../venv/bin/python -m pip install -r requirements.txt
-../venv/bin/python -m mercury_app --port=8889 --ServerApp.port_retries=0
+# install dependencies
+pip install -r requirements.txt
+# start mercury server
+mercury
 ```
 
-Open [the dashboard](http://localhost:8889/mercury/iphone_dashboard.ipynb). You can also open [iphone_dashboard.ipynb](iphone_dashboard.ipynb) in Jupyter and run all cells.
+Open the dashboard at 127.0.0.1. You can also open iphone_dashboard.ipynb in Jupyter or [MLJAR Studio](https://mljar.com) and edit dashboard.
 
 Port 8889 avoids a typical Jupyter server on 8888. Automatic port retries are disabled so a busy port produces an error instead of silently changing the URL.
 
