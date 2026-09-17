@@ -1,0 +1,60 @@
+[main]
+title = "iPhone Price Explorer"
+footer = "iPhone Price Explorer · An open-source dashboard by MLJAR · Built with Mercury"
+favicon_emoji = "📱"
+notebooks_button_label = "Explore"
+starting_message = "Preparing your iPhone charts…"
+starting_icon = "spinner"
+show_search_filter = false
+thumbnail_text = "📱"
+thumbnail_bg = "#eff6ff"
+thumbnail_text_color = "#2563eb"
+
+[welcome]
+header = "The story behind the price."
+message = """
+<span style="display:block;max-width:720px;font-size:19px;line-height:1.7;margin-bottom:18px">
+Explore how iPhone prices and screens have changed across generations.
+Compare original and inflation-adjusted prices, choose a screen measurement,
+and reveal the trend with a linear fit and confidence intervals.
+</span>
+<span style="display:block;font-size:14px;letter-spacing:0.04em;margin-bottom:24px">
+55 MODELS &nbsp; · &nbsp; 2007–2026 &nbsp; · &nbsp; DATA SNAPSHOT: SEPTEMBER 2026
+</span>
+<span style="display:flex;flex-wrap:wrap;gap:12px;margin-bottom:28px">
+<a class="btn" href="https://github.com/mljar/mercury-examples/tree/main/iphone-dashboard" style="padding:12px 20px;text-decoration:none;color:rgb(23,37,84);background:white">View code &amp; data ↗</a>
+<a class="btn" href="https://mljar.com/blog/iphone-prices-analysis/" style="padding:12px 20px;text-decoration:none;color:rgb(23,37,84);background:white">Read the article ↗</a>
+</span>
+"""
+
+[theme]
+font = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+font_url = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+font_size = "15px"
+background_color = "#f4f7fb"
+surface_color = "#ffffff"
+text_color = "#172554"
+primary_color = "#2563eb"
+
+[theme.overrides]
+accent_color = "#0f766e"
+muted_text_color = "#526179"
+border_color = "#dbe3ef"
+border_radius = "12px"
+focus_border_color = "#2563eb"
+hover_background_color = "#f1f5ff"
+selected_background_color = "#eaf1ff"
+topbar_background_color = "#102345"
+topbar_text_color = "#f8fafc"
+topbar_border_color = "#243b60"
+sidebar_background_color = "#f4f7fb"
+sidebar_text_color = "#243b60"
+sidebar_title_color = "#172554"
+sidebar_shadow = "2px 0 16px rgba(16,35,69,0.05)"
+widget_background_color = "#ffffff"
+card_background_color = "#ffffff"
+footer_background_color = "#f4f7fb"
+footer_text_color = "#526179"
+run_button_background = "#2563eb"
+run_button_background_hover = "#1d4ed8"
+run_button_text_color = "#ffffff"
