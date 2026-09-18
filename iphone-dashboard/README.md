@@ -2,7 +2,7 @@
 
 Explore prices and screen measurements across 55 iPhone models with a Mercury dashboard, Matplotlib charts, and large model labels positioned with adjustText.
 
-[**Open the live app →**](https://iphone-dashboard.runmercury.com) · [Code & data](https://github.com/mljar/mercury-examples/tree/main/iphone-dashboard) · [Accompanying article (coming soon)](https://mljar.com/blog/iphone-prices-analysis/)
+[**Open the live app →**](https://iphone-dashboard.runmercury.com) · [Code & data](https://github.com/mljar/mercury-examples/tree/main/iphone-dashboard) · [Accompanying article](https://mljar.com/blog/iphone-prices-analysis/)
 
 ![iPhone Price Explorer showing 2007–2026 inflation-adjusted prices, model-line filters, summary cards, and color-coded launch prices](media/web-app.png)
 
